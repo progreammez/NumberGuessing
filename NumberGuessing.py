@@ -25,7 +25,7 @@ while True:
             while tries < 10:
                 guess = int(input("Guess your number: "))
                 if guess == number:
-                    print("You won!. Good Game.")
+                    print(f"You won!. Good Game. You guessed in {tries} attempts.")
                     break
                 if guess > number:
                     print("You are higher than the number. Try lower.")
@@ -41,7 +41,7 @@ while True:
             while tries < 5:
                 guess = int(input("Guess your number: "))
                 if guess == number:
-                    print("You won!. Good Game.")
+                    print(f"You won!. Good Game. You guessed in {tries} attempts.")
                     break
                 if guess > number:
                     print("You are higher than the number. Try lower.")
@@ -57,7 +57,7 @@ while True:
             while tries < 3:
                 guess = int(input("Guess your number: "))
                 if guess == number:
-                    print("You won!. Good Game.")
+                    print(f"You won!. Good Game. You guessed in {tries} attempts.")
                     break
                 if guess > number:
                     print("You are higher than the number. Try lower.")
@@ -71,7 +71,7 @@ while True:
             print("God tier it is.")
             tries = 0
             while tries < 1:
-                guess = int(input("Guess your number: "))
+                guess = int(input("You got 1 chance. Guess your number: "))
                 if guess == number:
                     print("You won!. True god.")
                     break
