@@ -36,7 +36,7 @@ while True:
                     print(f"You failed. The number was {number}")
         #MediumMode
         elif difficulty == 2:
-            print("Easy mode it is.")
+            print("Medium mode it is.")
             tries = 0
             while tries < 5:
                 guess = int(input("Guess your number: "))
